@@ -6,9 +6,9 @@ title: Webscraping for Vector Graphics
 My first blog post ends up being not about research at all, but hopefully it'll be interesting none the less. I've always said that the majority of what you learn in your graduate career is nothing to do with the subject you're studying. In my case, I've had to learn a lot of data processing and note taking about a large number of chemical reactions. I've since taken a liking to Python, and all that the language has to offer. iPython Notebook especially has helped me keep track of samples and plot data in a format almost like a digital notebook.
 
 So when I decided on a graphics project for an upcoming design competition in the chemistry department, I ran into a problem. I wanted to have an image rather like this one but instead of Lincoln I wanted my university logo, and instead of words I wanted molecules (the kind drawn using ChemDraw) as shown below.
-
+<center>
 ![Caffeine]({{ site.baseurl }}/images/caffeine_vector.png)
-
+</center>
 This posed a few hurdles:
 
  - I don't have enough time to download the number of images I'll need.
@@ -97,7 +97,7 @@ for pages in pages:
                 print (image)
 ```
 Output:
-```
+```bash
 https://upload.wikimedia.org/wikipedia/commons/0/0c/TaxolNomenClature.svg
 https://upload.wikimedia.org/wikipedia/commons/5/59/Taxol.svg
 https://upload.wikimedia.org/wikipedia/commons/2/2e/Ambox_contradict.svg
@@ -122,8 +122,6 @@ pages = [line.rstrip('\n') for line in open('./anti_cancer_drugs_NIH.txt')]
 Now let's put everything together including the downloading the files with urllib.request and run the script. This may take a while!
 
 ```python
-
-
 import urllib.request
 count = 0
 for pages in pages:
@@ -142,7 +140,7 @@ for pages in pages:
 print (str(count) + " svg's were downloaded!")
 ```
 Output:
-```
+```bash
 255 svg's were downloaded!
 ```
 
@@ -170,5 +168,6 @@ for file in onlyfiles:
 print (str(count) + " svg's were used in the image!")
 ```
 Output:
-```
+```bash
 138 svg's were used in the image!
+```
