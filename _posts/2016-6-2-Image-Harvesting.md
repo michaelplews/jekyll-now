@@ -53,8 +53,10 @@ for pages in pages:
             if image[-3:] in ("SVG", "svg"):           #Make sure the images are only .svg format
                 print (image)
 ```
+
 Output:
-```
+
+```bash
 https://upload.wikimedia.org/wikipedia/en/9/99/Question_book-new.svg
 https://upload.wikimedia.org/wikipedia/commons/0/0c/TaxolNomenClature.svg
 https://upload.wikimedia.org/wikipedia/commons/2/2e/Ambox_contradict.svg
@@ -96,7 +98,9 @@ for pages in pages:
                 #The above line has some additional filters
                 print (image)
 ```
+
 Output:
+
 ```bash
 https://upload.wikimedia.org/wikipedia/commons/0/0c/TaxolNomenClature.svg
 https://upload.wikimedia.org/wikipedia/commons/5/59/Taxol.svg
