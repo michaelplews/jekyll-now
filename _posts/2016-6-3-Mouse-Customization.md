@@ -12,7 +12,7 @@ I liked the idea of having the buttons Tab-left and Tab-right in Firefox. I star
 I started by installing programs required and dependencies:
 
 ```bash
-~$ sudo apt-get install xdotool xev xbindkeys
+~$ sudo apt-get install xdotool xev xbindkeys xbindkeys-config
 ```
 (I believe these are all the dependencies, I will update if I find out otherwise)
 
@@ -68,6 +68,12 @@ The b:8 and b:9 were our button presses from earlier, you should change these de
 The Control + Tab seems to be a descriptor, and when changed seems to have no effect.
 
 That's it! Save the file and make sure xbindkeys is set as a startup application in 'Startup Applications'. I hope this helped!
+
+## A Word to the Wise
+
+While this was a useful addition to firefox, there were some points where I liked having the 'back a page' and 'forward a page' options, especially in Files. 
+
+I found that holding Control and clicking these buttons bought back their original functionality, though I'm not sure how stable this is...
 
 ## Optional Code
 
