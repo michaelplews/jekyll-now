@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
    viewBox="0 0 399.99998 399.99998"
    height="400"
-   width="400">
+   width="400"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="github.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.834386"
+     inkscape:cx="55.58066"
+     inkscape:cy="230.33562"
+     inkscape:window-x="1600"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs4" />
   <metadata
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,10 +52,11 @@
      transform="translate(-508.57143,-142.9337)"
      id="layer1">
     <path
-       transform="matrix(-0.70460278,0.70960194,-0.70960194,-0.70460278,0,0)"
-       d="m -56.033295,-744.44427 a 199.85838,199.85838 0 0 1 -99.929195,173.08243 199.85838,199.85838 0 0 1 -199.85838,0 199.85838,199.85838 0 0 1 -99.92919,-173.08244 l 199.85838,1e-5 z"
+       d="m 567.74031,484.77617 c -50.66737,-50.31042 -70.64565,-123.82988 -52.40924,-192.86431 18.23641,-69.03444 71.91699,-123.09588 140.82077,-141.8199 68.90378,-18.72402 142.56265,0.734 193.23002,51.04442 l -4.38011,272.32835 z"
        id="path4144"
-       style="fill:#484848;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28299996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#484848;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28299996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccc" />
     <path
        transform="matrix(0.70460278,-0.70960194,0.70960194,0.70460278,0,0)"
        d="m 455.76974,744.42596 a 199.85835,199.85835 0 0 1 -99.92917,173.08242 199.85835,199.85835 0 0 1 -199.85836,-10e-6 199.85835,199.85835 0 0 1 -99.92917,-173.08241 l 199.85835,0 z"
